@@ -9,6 +9,6 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "abc"
+  name     = "abc-123"
   location = "East US"
 }
