@@ -6,9 +6,7 @@ provider "azurerm" {
   client_secret   = "QOF8Q~JFDWwAM39AK5WhEKoyIwrDBnjogoh3ebf0"
   tenant_id       = "4bcf17d2-d890-4369-a0b5-ceff8e65262d"
 }
-
-
 resource "azurerm_resource_group" "example" {
-  name     = "abc-123"
+  name     = "abc-567"
   location = "East US"
 }
